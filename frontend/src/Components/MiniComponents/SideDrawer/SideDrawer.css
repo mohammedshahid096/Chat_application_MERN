@@ -1,0 +1,34 @@
+.sideDrawer {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+.showSearchButton span {
+  display: none;
+}
+.searchPannel {
+  display: flex;
+  gap: 0.5rem;
+}
+.userHover {
+  margin-top: 1rem;
+}
+.userHover:hover {
+  background-color: #03c988;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .showSearchButton > button {
+    display: none;
+  }
+
+  .showSearchButton span {
+    display: block;
+  }
+  .sideDrawer > :nth-child(2) {
+    display: none;
+  }
+}

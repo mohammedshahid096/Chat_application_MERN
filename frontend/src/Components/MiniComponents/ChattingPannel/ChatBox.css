@@ -1,0 +1,134 @@
+.ChatBoxWrapper {
+  width: 70%;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.notselecteduser {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.MessageBoxWrapper {
+  padding: 1rem;
+}
+.MessageBoxWrapper header {
+  /* display: flex; */
+}
+.MessageBoxWrapper header span {
+  display: none;
+}
+.MessageBoxWrapper header main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.MessageBoxWrapper section {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: start;
+  margin-top: 0.5rem;
+}
+
+.chatmessage_box {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.sendOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sendOptions input {
+  background-color: #bab8b657;
+  outline: none;
+}
+.Message_wrapper {
+  /* padding: 20px 24px; */
+  /* overflow-y: auto; */
+  margin-bottom: 0.4rem;
+  /* height: 500px; */
+}
+.Message_wrapper > div > div {
+  height: 70vh;
+}
+.Message_wrapper > div > div > div {
+  margin-top: 0.3rem;
+}
+.Message_wrapper p {
+  padding: 8px 16px;
+  word-wrap: break-word;
+  max-width: 20rem;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1), 0 16px 16px -16px rgba(0, 0, 0, 0.5);
+}
+.Message_wrapper .chatoutgoing {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Message_wrapper .chatincomming {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Message_wrapper .chatoutgoing p {
+  background-color: #333;
+  color: #fff;
+  border-radius: 18px 18px 0 18px;
+  margin-right: 0.3rem;
+}
+
+.chatincomming img {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.chatincomming p {
+  background-color: #fff;
+  color: #333;
+  border-radius: 18px 18px 18px 0;
+}
+
+.buttonDiv {
+  background-color: green;
+  padding: 0.41rem 0.8rem;
+  color: #fff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .ChatBoxWrapper {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .MessageBoxWrapper header {
+    display: flex;
+  }
+  .MessageBoxWrapper header span {
+    display: block;
+  }
+  .MessageBoxWrapper header main {
+    width: 100%;
+  }
+  .showMessages {
+    display: block;
+  }
+  .hideMessages {
+    display: none;
+  }
+}

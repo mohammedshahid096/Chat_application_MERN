@@ -1,0 +1,33 @@
+// todo : selecting a user chat
+export const SELECTED_CHAT_USER = "SELECTED_CHAT_USER";
+export const SELECTED_CHAT_USER_RESET = "SELECTED_CHAT_USER_RESET";
+
+// todo : fetching the all chats
+export const FETCH_CHAT_REQUEST = "FETCH_CHAT_REQUEST";
+export const FETCH_CHAT_SUCCESS = "FETCH_CHAT_SUCCESS";
+export const FETCH_CHAT_FAIL = "FETCH_CHAT_FAIL";
+
+// todo : selected chat
+export const ADD_CHAT_TO_USER_REQUEST = "ADD_CHAT_TO_USER._REQUEST";
+export const ADD_CHAT_TO_USER_SUCCESS = "ADD_CHAT_TO_USER_SUCCESS";
+export const ADD_CHAT_TO_USER_FAIL = "ADD_CHAT_TO_USER_FAIL";
+
+// todo : creating a group
+export const CREATE_GROUP_CHAT_REQUEST = "CREATE_GROUP_CHAT_REQUEST";
+export const CREATE_GROUP_CHAT_SUCCESS = "CREATE_GROUP_CHAT_SUCCESS";
+export const CREATE_GROUP_CHAT_FAIL = "CREATE_GROUP_CHAT_FAIL";
+export const CREATE_GROUP_CHAT_RESET = "CREATE_GROUP_CHAT_RESET";
+
+// todo : updating a group name
+export const UPDATE_GROUP_NAME_REQUEST = "UPDATE_GROUP_NAME_REQUEST";
+export const UPDATE_GROUP_NAME_SUCCESS = "UPDATE_GROUP_NAME_SUCCESS";
+export const UPDATE_GROUP_NAME_FAIL = "UPDATE_GROUP_NAME_FAIL";
+export const UPDATE_GROUP_NAME_RESET = "UPDATE_GROUP_NAME_RESET";
+
+// todo : deleting a user from group
+export const DELETE_USER_FROM_GROUP_SUCCESS = "DELETE_USER_FROM_GROUP_SUCCESS";
+export const DELETE_USER_FROM_GROUP_FAIL = "DELETE_USER_FROM_GROUP_FAIL";
+export const DELETE_USER_FROM_GROUP_RESET = "DELETE_USER_FROM_GROUP_RESET";
+
+// todo : clearing the chats error
+export const CHAT_CLEAR_ERROR = "CHAT_CLEAR_ERROR";

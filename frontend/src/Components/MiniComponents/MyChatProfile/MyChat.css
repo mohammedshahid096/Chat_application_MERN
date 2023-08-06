@@ -1,0 +1,45 @@
+.MyChatWrapper {
+  width: 28%;
+  height: 90vh;
+  /* background-color: #fff; */
+  border-radius: 5px;
+  border: 2px solid black;
+  overflow: auto;
+}
+
+.chatuserProfile {
+  transition: all 0.5s;
+  margin-top: 0.5rem;
+  /* background-color: rgba(210, 207, 207, 0.273); */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+.chatuserProfile > div {
+  padding: 10px;
+}
+.chatuserProfile:hover {
+  background-color: #03c988;
+  cursor: pointer;
+}
+.selecteduser {
+  background-color: #03c988;
+  border-radius: 5px;
+  box-shadow: 1px 0px 2px rgb(88, 218, 94);
+}
+.GroupHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .MyChatWrapper {
+    width: 100%;
+  }
+  .showChatUsers {
+    display: block;
+  }
+  .hideChatUsers {
+    display: none;
+  }
+}
